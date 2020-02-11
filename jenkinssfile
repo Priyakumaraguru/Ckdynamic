@@ -8,19 +8,18 @@ pipeline
 
     
    stages{
-    stage('Build')
+   /* stage('Build')
         {
             steps{
               sh 'mvn clean install'
                  }
-         }
+         }*/
          
          stage('Nexus')
     {
      steps{
           
-            sh   'curl  -u admin:admin123 -H "Accept: application/json" "http://3.15.18.214:8081/nexus/service/local/repositories/repo/status" '
-         
+          repo(JSON)
 }
 }
 }
