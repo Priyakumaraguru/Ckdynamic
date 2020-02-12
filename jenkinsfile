@@ -18,7 +18,7 @@ pipeline
   
         stage('Nexus'){
        steps{
-         Nartifact_download()
+         Nartifact_download(JSON)
         }
         }
         
