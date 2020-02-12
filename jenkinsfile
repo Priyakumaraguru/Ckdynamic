@@ -18,7 +18,7 @@ pipeline
   
         stage('Nexus'){
        steps{
-         Ndown_artifact(JSON)
+         Ndown_artifact()
         }
         }
         
