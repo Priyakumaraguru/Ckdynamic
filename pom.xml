@@ -13,6 +13,7 @@
   <sonar.organization>priyakumaraguru</sonar.organization>
   <sonar.host.url>https://sonarcloud.io</sonar.host.url>
   <sonar.login>7dd78abb241d6fa3620d84ecec720983527c9d89</sonar.login>
+	       <sonar.profile>sonar-project.properties</sonar.profile>
 </properties>
      </profile>
 </profiles>
